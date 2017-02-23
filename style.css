@@ -1,0 +1,149 @@
+/*CSS reset settings*/
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  width: 970px;
+  margin: 0px auto;
+  font-family: Arial, Verdana, sans-serif;
+  padding: 10px;
+  background: #f6f6f6;
+}
+main .info_section .screenshot{
+  width:280px;
+  height:280px;
+  padding:0px;
+  margin:0px;
+}
+main .info_section img{
+  width: 40px;
+  height: 40px;
+  padding:5px;
+
+}
+header{
+  background: #f5f5f5; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #f3f3f3, #f3f3f3); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #fcfcfc, #fcfcfc); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #f8f8f8, #f8f8f8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #f2f2f2, #f2f2f2); /* Standard syntax */
+  padding: 15px 20px;
+}
+header h1, header h2{
+  display: inline-block;
+}
+header h2{
+  float: right;
+  padding-top: 5px;
+}
+.info_header {
+  padding:10px;
+}
+main{
+  padding: 20px;
+  background: #1e0d12; /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient(#6f5964, #6f5964, #1e0d12,#47343c); /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(#6f5964, #6f5964, #1e0d12,#47343c); /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(#6f5964, #6f5964, #1e0d12,#47343c); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(#6f5964, #6f5964, #1e0d12,#47343c); /* Standard syntax */
+}
+main .about_section .info_header{
+  color: #ffffff;
+  background: #ffffff; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#a8a7ad, #898794, #898794); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#a8a7ad, #898794, #898794); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#a8a7ad, #898794, #898794); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#a8a7ad, #898794, #898794); /* Standard syntax */
+}
+main .about_section{
+  display: inline-block;
+  padding: 5px;
+  width: 450px;
+  vertical-align: top;
+  background: #e2d6e1; /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient(#ece5ec, #fcfcfc, #daccd9); /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(#ece5ec, #fcfcfc, #daccd9); /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(#ece5ec, #fcfcfc, #daccd9); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(#ece5ec, #fcfcfc, #daccd9); /* Standard syntax */
+  margin-bottom: 20px;
+  min-height:273px;
+
+}
+#JayneDoe{
+  width: 400px;
+  padding:5px;
+  background: #e2d6e1; /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient(#ece5ec, #fcfcfc, #daccd9); /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(#ece5ec, #fcfcfc, #daccd9); /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(#ece5ec, #fcfcfc, #daccd9); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(#ece5ec, #fcfcfc, #daccd9); /* Standard syntax */
+  margin-bottom: 20px;
+  margin-right: 20px;
+  min-height: 273px;
+
+}
+main .about_section p{
+  margin-bottom: 10px;
+}
+main .info_proyects{
+  width:1000px;
+}
+main .info_proyects .info_section{
+  display: inline-block;
+  vertical-align: top;
+  padding:5px;
+  width: 280px;
+  margin-bottom: 20px;
+  background: #e2d6e1; /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient(#ece5ec, #fcfcfc, #daccd9); /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(#ece5ec, #fcfcfc, #daccd9); /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(#ece5ec, #fcfcfc, #daccd9); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(#ece5ec, #fcfcfc, #daccd9); /* Standard syntax */
+  margin-right: 20px;
+}
+main .info_proyects .info_section:last-child{
+  margin-right: 0px;
+}
+main .info_proyects .info_section p{
+  padding: 5px;
+  min-height:200px;
+}
+main .info_section .info_header{
+  color: white;
+  background: white; /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient(#a09fa7, #a2a1a8, #888694); /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(#a09fa7, #a2a1a8,#888694); /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(#a09fa7,#a2a1a8,#888694); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(#a09fa7, #a2a1a8,#888694); /* Standard syntax */
+}
+main .info_proyects .info_section a{
+  display: block;
+  text-align: center;
+}
+main .info_proyects .info_section a{
+  border: 1px solid grey;
+  font-size: 16px;
+  color: #fff;
+  padding: 6px 10px;
+  background-color:#407d61;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+}
+footer{
+  background: #f5f5f5; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #f3f3f3, #f3f3f3); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #fcfcfc, #fcfcfc); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #f8f8f8, #f8f8f8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #f2f2f2, #f2f2f2); /* Standard syntax */
+text-align: center;
+padding: 10px;
+}
+footer img{
+  vertical-align: middle;
+  width:25px;
+  height: 25px;
+}
+footer p:first-child{
+  margin-bottom: 10px;
+}
